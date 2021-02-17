@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Forecast App</title>
+    <link rel="shortcut icon" href="https://www.flaticon.com/svg/vstatic/svg/44/44499.svg?token=exp=1613564435~hmac=7e8221215e4347af7b4e59ae3a896094">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <!-- CSS only -->
+
+<!-- JS, Popper.js, and jQuery -->
+
+</head>
+
+<body>
+    <nav class="nav">
+        <h2 class="center">ML Financial Analysis</h2>
+        <a href="/">Home</a> <a href="/prediction">Forecasting</a><a href="/multi">Stock Comparison</a>
+    </nav>
+
+
+
+    {% block content %}
+    {% endblock %} 
+
+</body>
+</html>
+
+    
