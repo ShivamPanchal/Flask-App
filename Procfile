@@ -1,1 +1,1 @@
-web: gunicorn public.app:app
+web: gunicorn run public.app:app
